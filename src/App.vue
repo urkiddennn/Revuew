@@ -1,14 +1,15 @@
 <script setup>
-
-import { ref } from 'vue';
-
-const value = ref(null);
+import HeroPage from './components/HeroPage.vue';
 </script>
 
 <template>
-  <h1>dsdsd</h1>
-  <Button>ssss</Button>
-  <Rating v-model="value" />
+
+  <section>
+    <HeroPage />
+  </section>
+
 </template>
 
-<style scoped></style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+</style>
