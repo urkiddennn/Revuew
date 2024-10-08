@@ -1,6 +1,5 @@
 # revuew
-
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple file content summarizer using VUE.js and Gemini AI
 
 ## Recommended IDE Setup
 
